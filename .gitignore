@@ -1,0 +1,10 @@
+vendor/
+composer.lock
+phpunit.xml
+.idea
+Bag
+File
+Request
+Response
+Session
+.DS_Store

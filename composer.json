@@ -1,0 +1,37 @@
+{
+  "name": "pno/foundation",
+  "type": "library",
+  "description": "The Symfony HttpFoundation Component Busted Up Into Tiny Pieces - This Lib is for Testing Components",
+  "keywords": ["http","foundation", "wordpress", "symfony"],
+  "homepage": "https://github.com/penoonan",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pearl Noonan",
+      "homepage": "https://github.com/penoonan"
+    },
+    {
+      "name": "Fabien Potencier",
+      "email": "fabien@symfony.com"
+    },
+    {
+      "name": "Symfony Community",
+      "homepage": "https://symfony.com/contributors"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "pno/session": "dev-master",
+    "pno/response": "dev-master",
+    "pno/request": "dev-master",
+    "pno/file": "dev-master",
+    "pno/bag": "dev-master"
+  },
+  "autoload": {
+    "psr-4": { "pno\\": "" },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  },
+  "minimum-stability": "dev"
+}
