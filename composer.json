@@ -1,5 +1,5 @@
 {
-  "name": "pno/foundation",
+  "name": "pno/foundation-tests",
   "type": "library",
   "description": "The Symfony HttpFoundation Component Busted Up Into Tiny Pieces - This Lib is for Testing Components",
   "keywords": ["http","foundation", "wordpress", "symfony"],
